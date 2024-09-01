@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries API Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .country-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .country-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .country-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .country-card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .country-card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rest Countries API</h1>
+    </header>
+
+    <main>
+        <section class="country-container">
+            <!-- Example country card (you will dynamically insert these using JavaScript) -->
+            <div class="country-card">
+                <img src="https://via.placeholder.com/300x200" alt="Country Flag">
+                <h2>Country Name</h2>
+                <p><strong>Population:</strong> 1,234,567</p>
+                <p><strong>Region:</strong> Region Name</p>
+                <p><strong>Capital:</strong> Capital City</p>
+            </div>
+            <!-- Add more country cards dynamically here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rest Countries API Project</p>
+    </footer>
+
+</body>
+</html>
 
